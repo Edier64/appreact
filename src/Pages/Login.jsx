@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from '../components/Header.jsx';
 import '../components/Header.css'; 
-
+//import connect from '../BD/Supabase.js';
 
 function Login() {
   const [email, setEmail] = useState('');

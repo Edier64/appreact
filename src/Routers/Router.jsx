@@ -9,7 +9,7 @@ import App from "../App.jsx";
 import UserProfile from "../Pages/Usuario.jsx";
 export const router = createBrowserRouter([
 {
-path: "/login", element: <Login/>
+path: "/Login", element: <Login/>
 },
 {
  path: "/Register", element: <Register/>
